@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <!-- <header class="section has-background-info py-4 has-text-white">
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <span class="icon">
+                        <i class="far fa-envelope"></i>
+                    </span>
+                    email@company.com
+                </div>
+                <div class="column">
+                    <span class="icon">
+                        <i class="far fa-phone-volume"></i>
+                    </span>
+                    123-456-7890
+                </div>
+                <div class="column has-text-right-tablet">
+                    <span class="icon">
+                        <i class="far fa-headphones-alt"></i>
+                    </span>
+                    Support
+                </div>
+            </div>
+        </div>
+    </header> -->
+    <section class="section" id="hero">
+        <div class="container">
+            <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="#">
+                        <img src="img/full-reinbow-logo.png" width="140" height="28">
+                    </a>
+
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                        data-target="navbarBasicExample">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+
+                <div id="navbarBasicExample" class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item has-text-white is-size-4">
+                            Home
+                        </a>
+                        <a class="navbar-item has-text-white is-size-4">
+                            About Us
+                        </a>
+                        <a class="navbar-item has-text-white is-size-4">
+                            Services
+                        </a>
+                        <a class="navbar-item has-text-white is-size-4">
+                            Contact
+                        </a>
+                    </div>
+
+                    <div class="navbar-end">
+                        <div class="navbar-item">
+                            <div class="buttons">
+                                <a class="button is-info">
+                                    <strong>Sign up</strong>
+                                </a>
+                                <a class="button is-info">
+                                    Log in
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="columns pt-6">
+                <div class="column mt-6">
+                    <h1 class="is-size-1 has-text-white">
+                        Your Destination Awaits
+                    </h1>
+                    <p class="is-size-5 has-text-white">
+                        We are Reinbow, an online service that provides you with the best options to kick off your journey. <br/>
+                        Whether you want to climb a mountain, traverse down towards the bottom of the ocean, or fly into space, we got you covered.
+                    </p>
+                    <button class="button is-warning mt-4 is-medium">
+                        Get me started!
+                    </button>
+                </div>
+                <div class="column mt-6">
+                    <img src="img/hero-image.png">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section" id="services">
+        <div class="container">
+            <div class="has-text-centered">
+                <h2 class="title is-2">Here are our options to prepare your journey</h2>
+            </div>
+        </div>
+        <div class="columns pt-6">
+            <div class="column">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="has-text-centered">
+                            <span class="icon is-size-1 py-6 my-3">
+                                <i class="fas fa-plane"></i>
+                            </span>
+                        </div>
+                        <p class="title is-4">
+                            Flight
+                        </p>
+                        <div class="content">
+                            You may choose from a variety of our privately-owned hangers or airports to rent a plane or book an airline flight.
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+                        <a href="#" class="card-footer-item">Learn more</a>
+                    </footer>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="has-text-centered">
+                            <span class="icon is-size-1 py-6 my-3">
+                                <i class="fas fa-car-side"></i>
+                            </span>
+                        </div>
+                        <p class="title is-4">
+                            Ground Transportation
+                        </p>
+                        <div class="content">
+                            If ground transport suits your journey, we can provide you a land vehicle from one of our nearest warehouses for the modest of prices.
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+                        <a href="#" class="card-footer-item">Learn more</a>
+                    </footer>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="has-text-centered">
+                            <span class="icon is-size-1 py-6 my-3">
+                                <i class="fas fa-ship"></i>
+                            </span>
+                        </div>
+                        <p class="title is-4">
+                            Maritime
+                        </p>
+                        <div class="content">
+                            Whether you are studying marine biology or wanting to travel the seven seas, we will gladly provide you with a sea vessel of your own choosing.
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+                        <a href="#" class="card-footer-item">Learn more</a>
+                    </footer>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="has-text-centered">
+                            <span class="icon is-size-1 py-6 my-3">
+                                <i class="fas fa-space-shuttle"></i>
+                            </span>
+                        </div>
+                        <p class="title is-4">
+                            Space Travel
+                        </p>
+                        <div class="content">
+                            While space travel is a new addition to popular tourism, we have already perfected the technology that will make for a wonderful experience.
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+                        <a href="#" class="card-footer-item">Learn more</a>
+                    </footer>
+                </div>
+            </div>
+        </div>
+        <div class="columns pt-6">
+            <div class="column">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="has-text-centered">
+                            <span class="icon is-size-1 py-6 my-3">
+                                <i class="fas fa-biking"></i>
+                            </span>
+                        </div>
+                        <p class="title is-4">
+                            Recreational Vehicles
+                        </p>
+                        <div class="content">
+                            If you have all the time in the world to spend on your journey, you can use one of our vehicles that are tailored for slower-paced experiences.
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+                        <a href="#" class="card-footer-item">Learn more</a>
+                    </footer>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="has-text-centered">
+                            <span class="icon is-size-1 py-6 my-3">
+                                <i class="fas fa-swimmer"></i>
+                            </span>
+                        </div>
+                        <p class="title is-4">
+                            Swimming Equipment
+                        </p>
+                        <div class="content">
+                            If you'd like a more personal experience with the body of water, we have swimming equipment in pristine condition for you.
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+                        <a href="#" class="card-footer-item">Learn more</a>
+                    </footer>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="has-text-centered">
+                            <span class="icon is-size-1 py-6 my-3">
+                                <i class="fas fa-hiking"></i>
+                            </span>
+                        </div>
+                        <p class="title is-4">
+                            Your Own Two Feet
+                        </p>
+                        <div class="content">
+                            If you want to go on your journey without a vehicle or any additional equipment, explore our helpful tools here that you can download onto your devices as you travel.
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+                        <a href="#" class="card-footer-item">Learn more</a>
+                    </footer>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="has-text-centered">
+                            <span class="icon is-size-1 py-6 my-3">
+                                <i class="fas fa-horse"></i>
+                            </span>
+                        </div>
+                        <p class="title is-4">
+                            Old School
+                        </p>
+                        <div class="content">
+                            If your journey is not about the destination but the journey itself, we can provide you horses, camels, rickshaws, wagons, carriages, and others.
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+                        <a href="#" class="card-footer-item">Learn more</a>
+                    </footer>
+                </div>
+            </div>
+        </div>
+        <div class="field is-grouped mt-6 is-flex service-buttons">
+            <p class="control">
+                <button class="button is-warning">
+                    Free consultation
+                </button>
+            </p>
+            <p class="control">
+                <button class="button is-info">
+                    Pricing
+                </button>
+            </p>
+        </div>
+    </section>
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <header class="card-header has-background-warning">
+                        <p class="card-header-title">
+                            Got a question? Let us know!
+                        </p>
+                    </header>
+                    <div class="card-content card-color">
+                        <div class="field">
+                            <label for="" class="label">Name</label>
+                            <p class="control">
+                                <input type="text" class="input" placeholder="Name">
+                            </p>
+                        </div>
+                        <div class="field">
+                            <label for="" class="label">Phone</label>
+                            <p class="control">
+                                <input type="text" class="input" placeholder="Phone number">
+                            </p>
+                        </div>
+                        <div class="field">
+                            <label for="" class="label">Email</label>
+                            <p class="control">
+                                <input type="text" class="input" placeholder="Email">
+                            </p>
+                        </div>
+                        <div class="field">
+                            <p class="control">
+                                <button class="button is-warning">
+                                    Submit
+                                </button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column has-text-white pt-6 pl-6">
+                    <span class="icon is-size-1 pb-6 my-3 has-text-grey-lighter">
+                        <i class="fas fa-quote-left">
+
+                        </i>
+                    </span>
+                    <p>
+                        You can't go wrong about Reinbow.
+                        They are a good and honest-working company who will have your back and get you whatever you need.
+                    </p>
+                    <p class="has-text-weight-bold pt-3 is-size-4">
+                        John Doe
+                    </p>
+                    <span class="icon is-size-1 pt-6 pr-3 my-3 has-text-grey-lighter is-pulled-right">
+                        <i class="fas fa-quote-right">
+
+                        </i>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+
+            // Get all "navbar-burger" elements
+            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+            // Check if there are any navbar burgers
+            if ($navbarBurgers.length > 0) {
+
+                // Add a click event on each of them
+                $navbarBurgers.forEach(el => {
+                    el.addEventListener('click', () => {
+
+                        // Get the target from the "data-target" attribute
+                        const target = el.dataset.target;
+                        const $target = document.getElementById(target);
+
+                        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                        el.classList.toggle('is-active');
+                        $target.classList.toggle('is-active');
+
+                    });
+                });
+            }
+
+        });
+    </script>
+</body>
+
+</html>

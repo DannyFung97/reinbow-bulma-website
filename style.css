@@ -1,0 +1,57 @@
+#hero {
+    height: 1079px;
+    background: rgb(11,0,237);
+    background: linear-gradient(324deg, rgba(11,0,237,1) 0%, rgba(0,168,161,1) 55%, rgba(109,222,0,1) 100%);
+}
+
+#hero .navbar.is-transparent {
+    background-color: transparent;
+}
+
+.service-buttons {
+    justify-content: center !important;
+}
+
+.logos:before {
+    content: '';
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    top: 0%;
+    border-top: 1px solid #baacba
+}
+
+#contact {
+    background-color: #1e2f7e;
+}
+
+.card-color {
+    background-color: white;
+}
+
+@keyframes spin {
+    from {
+      transform: scale3d(2, 2, 1) rotateZ(0deg);
+    }
+    to {
+      transform: scale3d(2, 2, 1) rotateZ(360deg);
+    }
+  }
+  @-moz-keyframes spin {
+    from {
+      -moz-transform: scale3d(2, 2, 1) rotateZ(0deg);
+    }
+    to {
+      -moz-transform: scale3d(2, 2, 1) rotateZ(360deg);
+    }
+  }
+
+@media screen and (max-width: 1023px){
+    .navbar-menu a.has-text-white {
+        color: #4a4a4a !important;
+    }
+
+    .navbar-menu a.has-text-white:hover {
+        color: #1a55b4 !important;
+    }
+}
